@@ -15,10 +15,10 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQL9Dialect
   datasource:
     platform: postgres
+    driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://postgres:5432/eagle_eye_local
     username: postgres
     password: "{cipher}f0c06986d3ff9295a9135b5ba5229934d9bb4f82c1c2daf22bca7c2bf25b46cf"
     dbcp2:
       test-while-idle: true
       validation-query: SELECT 1
-    driver-class-name: org.postgresql.Driver
