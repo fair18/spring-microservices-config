@@ -1,5 +1,3 @@
-example:
-  property: "I HAVE"
 spring:
   jpa:
     database: POSTGRESQL
