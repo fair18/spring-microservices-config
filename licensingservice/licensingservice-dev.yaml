@@ -20,3 +20,12 @@ spring:
     dbcp2:
       test-while-idle: true
       validation-query: SELECT 1
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://104.46.126.98:31108/eureka/
