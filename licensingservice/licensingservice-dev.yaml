@@ -14,7 +14,7 @@ spring:
   datasource:
     platform: postgres
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://192.168.99.100:32258/eagle_eye_local
+    url: jdbc:postgresql://104.46.126.98:32646/eagle_eye_local
     username: postgres
     password: "{cipher}f0c06986d3ff9295a9135b5ba5229934d9bb4f82c1c2daf22bca7c2bf25b46cf"
     dbcp2:
