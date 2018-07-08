@@ -1,5 +1,6 @@
 example:
   property: "I AM A PROD PROPERTY OVERRIDE"
+
 spring:
   jpa:
     database: POSTGRESQL
@@ -22,3 +23,12 @@ spring:
     dbcp2:
       test-while-idle: true
       validation-query: SELECT 1
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/

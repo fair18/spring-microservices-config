@@ -1,6 +1,3 @@
-example:
-  property: "I AM A PROD PROPERTY OVERRIDE"
-
 spring:
   jpa:
     database: POSTGRESQL
